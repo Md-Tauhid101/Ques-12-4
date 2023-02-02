@@ -1,0 +1,77 @@
+<!-- Upload the HTML Page which has the following properties:
+1) Make a web page using CSS tags with the following properties-
+    It should have a table (Style it with CSS)
+    It should have a LIST (Style the icons with CSS)
+    It should have a form with text box, text area, password radio buttons, checkbox and dropdown
+    Hyperlink to another page using pseudo-element selector -->
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Question-1(1&2)</title>
+        <link rel="stylesheet" href="Ques(1&2).css">
+    </head>
+    <style>
+        .mylink::before {
+            content: "Know More about HTML";
+            text-decoration: underline;
+            color: rgb(0, 195, 255);
+        }
+    </style>
+    
+    <body>
+        <table class="table">
+            <tr class="table">
+                <th class="table" id="html">HTML</th>
+                <th class="table" id="css">CSS</th>
+                <th class="table" id="java">JAVASCRIPT</th>
+            </tr>
+            <tr class="table">
+                <td class="table" id="htmltd">
+                    <ol>
+                        <li class="ol1">HTML stands for HyperText Markup Language</li>
+                        <li class="ol1">It is used to create web pages</li>
+                        <li class="ol1">it has four necessary tags
+                            <ul>
+                                <li>hmtl tag</li>
+                                <li>title tag</li>
+                                <li>head tag</li>
+                                <li>body tag</li>
+                            </ul>
+                        </li>
+                    </ol>
+                    <a class="mylink" href="https://www.w3schools.com/html/default.asp">https://www.w3schools.com/html/default.asp</a>
+                </td>
+                <td class="table" id="csstd">
+                    <ol>
+                        <li class="ol2">CSS stands for Cascading Style Sheets</li>
+                        <li class="ol2">it is used to style the html code</li>
+                        <li class="ol2">their are three types of CSS
+                            <ul>
+                                <li>inline CSS</li>
+                                <li>internal CSS</li>
+                                <li>external CSS</li>
+                            </ul>
+                        </li>
+                    </ol>
+                    <a class="mylink" href="https://www.w3schools.com/css/default.asp">To know more visit this link</a>
+                </td>
+                <td class="table" id="javatd">
+                    <ol>
+                        <li class="ol3">Javascript is a programming Language</li>
+                        <li class="ol3">It is used to create dynamic and interactive web content</li>
+                        <li class="ol3">It is derived or made from C++</li>
+                    </ol>
+                    <a class="mylink" href="https://www.w3schools.com/js/default.asp">To know more visit this link</a>
+                </td>
+            </tr>
+        </table>
+    
+    </body>
+    
+    </html>
